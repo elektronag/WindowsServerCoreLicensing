@@ -24,7 +24,7 @@ Ergebnisse von `slmgr /ipk` blieben die gleichen.
 Diese Schritte habe ich mit beiden Images durchgeführt und habe die genau
 gleichen Ergebnisse erhalten.
 
-### Schlussfolgerung
+### Schlussfolgerung SLMGR
 
 Es handelt sich bei dem gelieferten Schlüssel nicht um einen Retail Key und
 darum funktioniert die Lizenzierung mit `slmgr /ipk` nicht!
@@ -457,3 +457,9 @@ For more information, review the log file.
 2020-07-03 21:09:11, Info                  DISM   DISM Provider Store: PID=3836 TID=2212 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
 2020-07-03 21:09:11, Info                  DISM   DISM Provider Store: PID=3836 TID=2212 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
 ```
+
+### Schlussfolgerung DISM
+
+Die Installation einer Core Edition ist fehlerhaft und macht die Aktivierung
+einer Eval Edition unmöglich mit einem nicht Retail Product Key. Das Problem
+kann wahrscheinlich nur von Microsoft behoben werden.
