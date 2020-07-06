@@ -43,7 +43,7 @@ Beide Images zeigen hier das selbe Resultat.
 
 ### Abfrage der Ziel Editionen
 
-Abfrage der Ziel Editionen mit `dism /Online /Get-TargetEditions führte zu
+Abfrage der Ziel Editionen mit `dism /Online /Get-TargetEditions` führte zu
 folgenden Ergebnissen:
 
 ![target-editions-en](images/target-editions-en.png)
