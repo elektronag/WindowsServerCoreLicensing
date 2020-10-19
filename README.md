@@ -463,3 +463,7 @@ For more information, review the log file.
 Die Installation einer Core Edition ist fehlerhaft und macht die Aktivierung
 einer Eval Edition unmöglich mit einem nicht Retail Product Key. Das Problem
 kann wahrscheinlich nur von Microsoft behoben werden.
+
+## Lösung
+
+Die Verwendung eines nicht EVAL Images, in diesem Fall `SW_DVD9_Win_Server_STD_CORE_2019_1809.7_64Bit_German_DC_STD_MLF_X22-38327.ISO`, löst das Problem, das heisst der Schlüssel konnte hier erfolgreich mit `slmgr /ipk` verwendet werden.
